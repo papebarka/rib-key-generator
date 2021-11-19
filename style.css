@@ -1,0 +1,94 @@
+:root {
+    --bright-gray: #eeeeee;
+    --chinese-silver: #cccccc;
+    --granite-gray: #666666;
+    --dark-charcoal: #333333;
+}
+
+main
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bright-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--dark-charcoal);
+}
+
+#content
+{
+    background-color: #ffffff;
+    padding: 3rem 3rem;
+}
+
+header
+{
+    margin-bottom: 4rem;
+}
+
+.title
+{
+    color: black;
+}
+
+.form
+{
+    margin-bottom: 4rem;
+}
+
+.input-container
+{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.input-element
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-element:not(:last-of-type)
+{
+    margin-right: 25px;
+}
+
+.input-element > label
+{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+input
+{
+    /*margin: 5px 10px;*/
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--dark-charcoal);
+}
+
+input:focus
+{
+    outline-style: solid;
+    outline-color: black;
+    transition: ease-in-out, outline-color .35s ease-in-out;
+}
+
+.button
+{
+    padding: 1rem 1.5rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.rib-container
+{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
